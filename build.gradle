@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'io.appium', name: 'java-client', version: '6.1.0'
+    compile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.2.0'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+
+
+}
